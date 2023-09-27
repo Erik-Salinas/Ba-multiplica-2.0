@@ -1,0 +1,76 @@
+/* 
+*BUENA PRACTICA */
+
+/** Receteo de navegadores */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+    font-size: 20px;
+}
+
+h1{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    background-color: blueviolet;
+}
+p{
+    background-color: goldenrod !important; /* Buena practica y mala practica  */
+}
+
+p{
+    background-color: maroon;
+}
+
+.fondo img{
+    width: 100%;
+}
+
+
+/** Diferencia de etiqueta,class y id */
+img{
+    width: 400px;
+}
+#producto img{
+    width: 450px;
+    border: 10px green solid;
+}
+.producto img{
+    width: 100000px;
+}
+
+
+
+
+
+
+
+
+/* .menu{
+  background-color: aqua;
+}
+ */
+/* .menu ul li{
+    display: inline-block;
+    margin-left: 16rem;
+} */
+/* .card{
+    width: 20vw;
+    display: inline-block;
+} */
+/* .card__info{
+    border: 2px red solid;
+} */
+/* .card img{
+ width: 100%;
+}
+
+ */
