@@ -1,0 +1,103 @@
+/* 
+*BUENA PRACTICA */
+
+/** Receteo de navegadores */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: aqua;
+    height: 100vw;
+}
+.fondo img {
+    width: 100%;
+}
+
+h1 {
+    color: red;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+   /*  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+
+
+
+
+
+.menu{
+    background-color: rgba(98, 0, 255, 0.417);
+}
+
+.menu ul li{
+   display: inline;
+   margin-left: 250px;
+}
+.menu ul li a{
+    text-decoration:none;
+}
+
+/* .card{
+    width: 20vw;
+    display: inline-block;
+}
+.card__info{
+    border: 2px red solid;
+}
+.card img{
+ width: 100%;
+}
+ */
+
+.producto {
+    width: 259px;
+    /*  height: 100%; */
+    /* mala practica */
+    background-color: rgb(246, 255, 0);
+}
+.producto p{
+    color: green;
+}
+.span__prueba{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prodcuto__modificado {
+    background-color: red;
+    border: 30px solid blue;
+   /*  border-radius: 10% 25%; */
+   border-radius: 5%;
+   padding:40px;
+   /* padding-left:80px ;
+   padding-top: 50px ;
+   padding-bottom:65px ;
+   padding-right:100px ; */
+   margin: 100px auto;
+  /*  margin-left:80px;
+   margin-top:60px ;
+   margin-bottom: 100px;
+   margin-right: 80px; */
+   width: 20vw;
+   height: 100vh;
+  
+}
+.prodcuto__modificado h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.producto img {
+    width: 100%;
+}
+
+
+/*! CONTACTO */
+
