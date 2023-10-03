@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .img{
+    background-image: url(../img/paisaje.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+/* main{
+    background-color: blueviolet;
+} */
+
+
+
+
+
+
+
+
+h1{
+    color: rgb(122, 3, 122);
+    text-decoration: overline 2px solid rgb(221, 3, 3);
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 4vh 2vw;
+}
+.padre{
+    background-color: rgb(110, 105, 105);
+    width: 60vw;
+    /* height: 100vh; */
+    margin: auto;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: baseline;
+    /* gap: 80px; */
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.hijo{
+   background-color: orangered;
+   width: 100px;
+   height: 100px;
+   border: 2px solid black;
+   font-size: 3rem;
+   margin: 20px;
+}
+/* .primo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    padding: 70px;
+} */
+
+.menu{
+    background-color: rgb(69, 69, 177);
+    display: flex;
+    justify-content: space-between;
+}
+.menu img{
+    width: 100px;
+}
+.menu-2{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+li{
+    font-size: 2rem;
+    color: white;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+
+
+
+
+/* .padre{
+    background-color: rgb(110, 105, 105);
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    border: 3px black solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: stretch; */ /* Desaabilitar   height: 100px; de hijo*/
+/*     flex-wrap: wrap;
+    justify-content: start;
+} */
+
+/* .hijo{
+    background-color: rgb(219, 76, 24);
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+} */
+/* .hijo2{
+    background-color: rgb(219, 76, 24);
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+} */
