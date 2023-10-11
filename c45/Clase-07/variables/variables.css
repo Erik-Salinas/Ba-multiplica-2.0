@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: rgb(217, 79, 185);
+    --negro: black;
+    --font-size:2rem;
+}
+
+.container{
+    background-color: var(--azul);
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 220px;
+}
+.container h1{
+    font-size: var(--font-size);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
