@@ -29,7 +29,7 @@ console.log(javascript);
 console.log(etiqueta); */
 
 //*METODOS
-/* html.innerText = "HTML INICIAL";
+html.innerText = "HTML INICIAL";
 listaNueva.innerHTML =`
 <h2>Cursos nuevos</h2>
 <ul>
@@ -39,21 +39,14 @@ listaNueva.innerHTML =`
 </ul>
 <p>Este curso fue realizado gracias a los existos de </p> 
 <a href="https://erik-salinas.github.io/Psicologa-Andrea-Morales/">Enviar</a>
-`+ exitos; */
- listaNueva.innerHTML = `
-<h2>Cursos nuevos</h2>
-<ul>
-    <li>Angular</li>
-    <li>React</li>
-    <li>C++</li>
-</ul>
-<p>Este curso fue realizado gracias a los existos de </p> ${exitos}
-`; 
-/* listaNueva.innerHTML = ' <h2>Cursos nuevos</h2> <ul> <li>Angular</li> <li>React</li> <li>C++</li> </ul> <p>Este curso fue realizado gracias a los existos de </p> ' +  exitos; */
+`+ exitos;
 
 /* listaNueva.innerHTML = ' <h2>Cursos nuevos</h2> <ul> <li>Angular</li> <li>React</li> <li>C++</li> </ul> <p>Este curso fue realizado gracias a los existos de </p> ' +  exitos; */
-/* listaNueva.style.background="red";  */
-/* html.style.fontSize="2rem";  */
 
-html = document.getElementById("html").classList.add("html");
-/* html = document.getElementById("html").remove("html");  */
+/* listaNueva.innerHTML = ' <h2>Cursos nuevos</h2> <ul> <li>Angular</li> <li>React</li> <li>C++</li> </ul> <p>Este curso fue realizado gracias a los existos de </p> ' +  exitos;  */
+
+listaNueva.style.background="red"; 
+ html.style.fontSize="2rem";  
+ 
+html = document.getElementById("html").classList.add("html"); //AGREGA CONTENIDO
+/* html = document.getElementById("html").remove("html");  */ //ELIMINA CONTENIDO
