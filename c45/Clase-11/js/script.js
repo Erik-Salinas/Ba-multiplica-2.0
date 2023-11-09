@@ -37,16 +37,18 @@ listaNueva.innerHTML =`
     <li>React</li>
     <li>C++</li>
 </ul>
-<p>Este curso fue realizado gracias a los existos de </p> 
-<a href="https://erik-salinas.github.io/Psicologa-Andrea-Morales/">Enviar</a>
-`+ exitos;
+<p>Este curso fue realizado gracias a los existos de </p>
+`+ exitos + `<br> <br> <a href="https://erik-salinas.github.io/Psicologa-Andrea-Morales/">Enviar</a>`;
 
-/* listaNueva.innerHTML = ' <h2>Cursos nuevos</h2> <ul> <li>Angular</li> <li>React</li> <li>C++</li> </ul> <p>Este curso fue realizado gracias a los existos de </p> ' +  exitos; */
+listaNueva.style.backgroundColor="red";
+listaNueva.style.border= " 3px black solid";
+html = document.getElementById("html").classList.add("html");
+html = document.getElementById("html").classList.remove("html");
 
-/* listaNueva.innerHTML = ' <h2>Cursos nuevos</h2> <ul> <li>Angular</li> <li>React</li> <li>C++</li> </ul> <p>Este curso fue realizado gracias a los existos de </p> ' +  exitos;  */
+/* 
 
-listaNueva.style.background="red"; 
- html.style.fontSize="2rem";  
+listaNueva.style.background="red";  */
+/*  html.style.fontSize="2rem";   */
  
-html = document.getElementById("html").classList.add("html"); //AGREGA CONTENIDO
+/* html = document.getElementById("html").classList.add("html"); */ //AGREGA CONTENIDO
 /* html = document.getElementById("html").remove("html");  */ //ELIMINA CONTENIDO

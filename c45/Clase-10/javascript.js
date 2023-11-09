@@ -1,10 +1,21 @@
 //*VARIABLES
 //?EJERCICIO 1
-/* let num1 = 2;
-let num2 = 5;
-let num3 = 8;
-let resultado = ((num1 + num3) - num2); */
-/* console.log(resultado); */
+var num = 0;
+var num = 0;
+var num = 0;
+
+let num1 = 2; //global
+num1 = 5;
+num1 = 6;
+
+const num3 = 8;
+
+
+var resultado = ((num1 + num2) - num3);
+console.log(resultado);
+
+var resultado = ((num1 + num1) - num1);
+console.log(resultado);
 /* document.write(resultado); */ //Muestra la información en pantalla como la consola.
 
 //?EJERCICIO 2
